@@ -1,0 +1,41 @@
+/*
+*  Jumble css 1.0
+*/
+.jmbdiv {
+	border: 1px black solid;
+	background: url(blackboard.jpg);
+	border: #2e1a12 solid 14px;
+	-webkit-border-image: url(frame.png) 200 stretch;
+	-moz-border-image: url(frame.png) 200 stretch;
+	border-image: url(frame.png) 200 stretch;
+	-webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+}
+
+#jmbul {
+	display: inline-block;
+}
+
+.jmbblock {
+	border: 1px black solid;
+	display: inline-block;
+    float: left;
+    padding: 5px;
+    background-color: lightgray;
+    margin: 2px;
+	border-radius: 8px;
+	font-family: arial;
+    font-size: 18px;
+	font-weight: bold;
+}
+.jmbblock2 {
+	border: none;
+	display: inline-block;
+    float: left;
+    padding: 5px;
+    margin: 2px;
+	border-radius: 8px;
+	font-family: arial;
+    font-size: 18px;
+	font-weight: bold;
+	color: rgb(233, 253, 180);
+}
